@@ -1,0 +1,2 @@
+c:\users\nona\documents\visual studio 2012\Projects\karate calculator\karate calculator\bin\Debug\karate calculator.exe.config
+C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\bin\Debug\karate calculator.exe.config
