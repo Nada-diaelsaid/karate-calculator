@@ -1,2 +1,10 @@
 c:\users\nona\documents\visual studio 2012\Projects\karate calculator\karate calculator\bin\Debug\karate calculator.exe.config
 C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\bin\Debug\karate calculator.exe.config
+C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\bin\Debug\karate calculator.exe
+C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\bin\Debug\karate calculator.pdb
+C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\obj\Debug\karate calculator.csprojResolveAssemblyReference.cache
+C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\obj\Debug\karate_calculator.Form1.resources
+C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\obj\Debug\karate_calculator.Properties.Resources.resources
+C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\obj\Debug\karate calculator.csproj.GenerateResource.Cache
+C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\obj\Debug\karate calculator.exe
+C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\obj\Debug\karate calculator.pdb
