@@ -45,23 +45,31 @@ namespace karate_calculator
             menuStrip1.Visible = true;
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            if (panel2.Location == new Point(5, 82) && panel3.Location == new Point(292, 82))
-            {
-                panel2.Left = 292;
-                panel3.Left = 5;
-            }
-            else if (panel3.Location == new Point(5, 82) && panel2.Location == new Point(292, 82)) {
-                panel3.Left = 292;
-                panel2.Left = 5;
-            }
-          //  panel3.Location = new Point(5, 82);
-        }
+        
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutBox1 a = new AboutBox1();
+            a.Show();
+        }
+
+        private void swapPlayersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (panel3.Location == new Point(1,0) && panel4.Location == new Point(315, 0))
+            {
+                panel3.Left = 315;
+                panel4.Left = 1;
+            }
+            else if (panel4.Location == new Point(1,0) && panel3.Location == new Point(315, 0))
+            {
+                panel4.Left = 315;
+                panel3.Left = 1;
+            }
         }
     }
 }

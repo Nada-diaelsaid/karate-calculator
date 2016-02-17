@@ -8,3 +8,4 @@ C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\obj\Debug\kar
 C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\obj\Debug\karate calculator.csproj.GenerateResource.Cache
 C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\obj\Debug\karate calculator.exe
 C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\obj\Debug\karate calculator.pdb
+C:\Users\Nona\Documents\GitHub\karate-calculator\karate calculator\obj\Debug\karate_calculator.AboutBox1.resources
