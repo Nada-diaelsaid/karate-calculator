@@ -58,18 +58,31 @@ namespace karate_calculator
             a.Show();
         }
 
-        private void swapPlayersToolStripMenuItem_Click(object sender, EventArgs e)
+       
+
+        private void button3_Click(object sender, EventArgs e)
         {
-            if (panel3.Location == new Point(1,0) && panel4.Location == new Point(315, 0))
+            //swap players button
+            if (panel3.Location == new Point(1, 0) && panel4.Location == new Point(315, 0))
             {
                 panel3.Left = 315;
                 panel4.Left = 1;
             }
-            else if (panel4.Location == new Point(1,0) && panel3.Location == new Point(315, 0))
+            else if (panel4.Location == new Point(1, 0) && panel3.Location == new Point(315, 0))
             {
                 panel4.Left = 315;
                 panel3.Left = 1;
             }
+        }
+
+        private void label28_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lineShape5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
