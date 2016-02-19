@@ -84,5 +84,66 @@ namespace karate_calculator
         {
 
         }
+
+        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            AKAname.Text = toolStripTextBox1.Text;
+        }
+
+        private void toolStripTextBox2_TextChanged(object sender, EventArgs e)
+        {
+            AOname.Text = toolStripTextBox2.Text;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            ToolTip toolTip1 = new ToolTip();
+
+            // Set up the delays for the ToolTip.
+            toolTip1.AutoPopDelay = 5000;
+            toolTip1.InitialDelay = 200;
+            toolTip1.ReshowDelay = 500;
+            // Force the ToolTip text to be displayed whether or not the form is active.
+            toolTip1.ShowAlways = true;
+
+            // Set up the ToolTip text for the Button and Checkbox.
+            toolTip1.SetToolTip(this.button4, "(p)"); // + blue
+            toolTip1.SetToolTip(this.button5, "(m)"); // - blue
+            toolTip1.SetToolTip(this.button5, "(F1)"); // start
+        }
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            KeyEventArgs e = new KeyEventArgs(keyData);
+            if (e.KeyCode == Keys.P)
+            {
+                button4_Click(button4, e);
+                return true; // handled
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+           
+        }
+        private void sevenSegment(int n) {
+            if (n == 0) {
+                mid.Visible = true;
+            }
+            else if (n == 1)
+            {
+                top.Visible = true;
+                mid.Visible = true;
+                lefttop.Visible = true;
+                leftbottom.Visible = true;
+                bottom.Visible = true;
+            }
+        }
     }
 }
