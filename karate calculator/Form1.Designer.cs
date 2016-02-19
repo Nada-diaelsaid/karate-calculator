@@ -1210,8 +1210,8 @@
             this.lefttop.BorderWidth = 2;
             this.lefttop.Name = "lefttop";
             this.lefttop.SelectionColor = System.Drawing.SystemColors.ControlDark;
-            this.lefttop.X1 = 58;
-            this.lefttop.X2 = 58;
+            this.lefttop.X1 = 59;
+            this.lefttop.X2 = 59;
             this.lefttop.Y1 = 114;
             this.lefttop.Y2 = 133;
             // 
@@ -1236,12 +1236,12 @@
             // 
             this.leftbottom.BorderColor = System.Drawing.Color.Blue;
             this.leftbottom.BorderWidth = 2;
-            this.leftbottom.Name = "leftbuttom";
+            this.leftbottom.Name = "leftbottom";
             this.leftbottom.SelectionColor = System.Drawing.SystemColors.ControlDark;
-            this.leftbottom.X1 = 58;
-            this.leftbottom.X2 = 58;
-            this.leftbottom.Y1 = 143;
-            this.leftbottom.Y2 = 162;
+            this.leftbottom.X1 = 59;
+            this.leftbottom.X2 = 59;
+            this.leftbottom.Y1 = 139;
+            this.leftbottom.Y2 = 158;
             // 
             // rightbottom
             // 
@@ -1249,10 +1249,10 @@
             this.rightbottom.BorderWidth = 2;
             this.rightbottom.Name = "rightbottom";
             this.rightbottom.SelectionColor = System.Drawing.SystemColors.ControlDark;
-            this.rightbottom.X1 = 85;
-            this.rightbottom.X2 = 85;
-            this.rightbottom.Y1 = 143;
-            this.rightbottom.Y2 = 162;
+            this.rightbottom.X1 = 84;
+            this.rightbottom.X2 = 84;
+            this.rightbottom.Y1 = 139;
+            this.rightbottom.Y2 = 158;
             // 
             // righttop
             // 
@@ -1260,8 +1260,8 @@
             this.righttop.BorderWidth = 2;
             this.righttop.Name = "righttop";
             this.righttop.SelectionColor = System.Drawing.SystemColors.ControlDark;
-            this.righttop.X1 = 85;
-            this.righttop.X2 = 85;
+            this.righttop.X1 = 84;
+            this.righttop.X2 = 84;
             this.righttop.Y1 = 114;
             this.righttop.Y2 = 133;
             // 
@@ -1273,8 +1273,8 @@
             this.mid.SelectionColor = System.Drawing.SystemColors.ControlDark;
             this.mid.X1 = 80;
             this.mid.X2 = 62;
-            this.mid.Y1 = 139;
-            this.mid.Y2 = 139;
+            this.mid.Y1 = 136;
+            this.mid.Y2 = 136;
             // 
             // bottom
             // 
@@ -1284,8 +1284,8 @@
             this.bottom.SelectionColor = System.Drawing.SystemColors.ControlDark;
             this.bottom.X1 = 81;
             this.bottom.X2 = 63;
-            this.bottom.Y1 = 165;
-            this.bottom.Y2 = 165;
+            this.bottom.Y1 = 161;
+            this.bottom.Y2 = 161;
             // 
             // top
             // 
@@ -1293,10 +1293,10 @@
             this.top.BorderWidth = 2;
             this.top.Name = "top";
             this.top.SelectionColor = System.Drawing.SystemColors.ControlDark;
-            this.top.X1 = 79;
-            this.top.X2 = 61;
-            this.top.Y1 = 109;
-            this.top.Y2 = 109;
+            this.top.X1 = 80;
+            this.top.X2 = 62;
+            this.top.Y1 = 111;
+            this.top.Y2 = 111;
             // 
             // Form1
             // 

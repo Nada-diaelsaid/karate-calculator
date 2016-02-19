@@ -130,19 +130,108 @@ namespace karate_calculator
 
         private void button4_Click(object sender, EventArgs e)
         {
-           
+            int n = 9;
+            sevenSegment(n);
         }
         private void sevenSegment(int n) {
             if (n == 0) {
-                mid.Visible = true;
+                top.Visible = true;
+                mid.Visible = false;
+                bottom.Visible = true;
+                lefttop.Visible = true;
+                leftbottom.Visible = true;
+                righttop.Visible = true;
+                rightbottom.Visible = true;
             }
             else if (n == 1)
             {
+                top.Visible = false;
+                mid.Visible = false;
+                bottom.Visible = false;
+                righttop.Visible = true;
+                rightbottom.Visible = true;
+                lefttop.Visible = false;
+                leftbottom.Visible = false;
+            }
+            else if (n == 2)
+            {
                 top.Visible = true;
                 mid.Visible = true;
+                bottom.Visible = true;
+                righttop.Visible = true;
+                rightbottom.Visible = false;
+                lefttop.Visible = false;
+                leftbottom.Visible = true;
+            }
+            else if (n == 3)
+            {
+                top.Visible = true;
+                mid.Visible = true;
+                bottom.Visible = true;
+                righttop.Visible = true;
+                rightbottom.Visible = true;
+                lefttop.Visible = false;
+                leftbottom.Visible = false;
+            }
+            else if (n == 4)
+            {
+                top.Visible = false;
+                mid.Visible = true;
+                bottom.Visible = false;
+                righttop.Visible = true;
+                rightbottom.Visible = true;
+                lefttop.Visible = true;
+                leftbottom.Visible = false;
+            }
+            else if (n == 5)
+            {
+                top.Visible = true;
+                mid.Visible = true;
+                bottom.Visible = true;
+                righttop.Visible = false;
+                rightbottom.Visible = true;
+                lefttop.Visible = true;
+                leftbottom.Visible = false;
+            }
+            else if (n == 6)
+            {
+                top.Visible = true;
+                mid.Visible = true;
+                bottom.Visible = true;
+                righttop.Visible = false;
+                rightbottom.Visible = true;
                 lefttop.Visible = true;
                 leftbottom.Visible = true;
+            }
+            else if (n == 7)
+            {
+                top.Visible = true;
+                mid.Visible = false;
+                bottom.Visible = false;
+                righttop.Visible = true;
+                rightbottom.Visible = true;
+                lefttop.Visible = false;
+                leftbottom.Visible = false;
+            }
+            else if (n == 8)
+            {
+                top.Visible = true;
+                mid.Visible = true;
                 bottom.Visible = true;
+                righttop.Visible = true;
+                rightbottom.Visible = true;
+                lefttop.Visible = true;
+                leftbottom.Visible = true;
+            }
+            else if (n == 9)
+            {
+                top.Visible = true;
+                mid.Visible = true;
+                bottom.Visible = true;
+                righttop.Visible = true;
+                rightbottom.Visible = true;
+                lefttop.Visible = true;
+                leftbottom.Visible = false;
             }
         }
     }
