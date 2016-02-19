@@ -112,9 +112,21 @@ namespace karate_calculator
             toolTip1.ShowAlways = true;
 
             // Set up the ToolTip text for the Button and Checkbox.
-            toolTip1.SetToolTip(this.button4, "(p)"); // + blue
-            toolTip1.SetToolTip(this.button5, "(m)"); // - blue
-            toolTip1.SetToolTip(this.button5, "(F1)"); // start
+            toolTip1.SetToolTip(this.button4, "(P)"); // + blue
+            toolTip1.SetToolTip(this.button5, "(M)"); // - blue
+            toolTip1.SetToolTip(this.button13, "(SHIFT+P)"); // + red
+            toolTip1.SetToolTip(this.button12, "(SHOFT+M)"); // - red
+            toolTip1.SetToolTip(this.button1, "(F1)"); // start
+            toolTip1.SetToolTip(this.button14, "(SHIFT+F1)"); // reset
+            toolTip1.SetToolTip(this.yukoB, "(Y)"); // yuko blue button
+            toolTip1.SetToolTip(this.yukoR, "(SHIFT+Y)"); // yuko red button
+            toolTip1.SetToolTip(this.wazariB, "(W)"); // wazari blue button
+            toolTip1.SetToolTip(this.wazariR, "(SHIFT+W)"); // wazari red button
+            toolTip1.SetToolTip(this.ipponB, "(I)"); // ippon blue button
+            toolTip1.SetToolTip(this.ipponR, "(SHIFT+I)"); // ippon red button
+
+
+
         }
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
@@ -130,8 +142,7 @@ namespace karate_calculator
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int n = 9;
-            sevenSegment(n);
+            
         }
         private void sevenSegment(int n) {
             if (n == 0) {

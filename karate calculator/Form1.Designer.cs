@@ -68,14 +68,14 @@
             this.button14 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.ipponR = new System.Windows.Forms.Button();
+            this.wazariR = new System.Windows.Forms.Button();
+            this.yukoR = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.ipponB = new System.Windows.Forms.Button();
+            this.wazariB = new System.Windows.Forms.Button();
+            this.yukoB = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -93,7 +93,6 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
@@ -126,13 +125,49 @@
             this.AOname = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.lefttop = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.shapeContainer2 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.leftbottom = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.rightbottom = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.righttop = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.mid = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.bottom = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.top = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape6 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape7 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape8 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape9 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape10 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape11 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape12 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.goldDot = new System.Windows.Forms.Label();
+            this.lineShape13 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape14 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape15 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape16 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape17 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape18 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape19 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape20 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape21 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape22 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape23 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape24 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape25 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape26 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.shapeContainer3 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.lineShape27 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape28 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape29 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape30 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape31 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape32 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape33 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape34 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape35 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape36 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape37 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape38 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape39 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape40 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -181,14 +216,14 @@
             this.panel1.Controls.Add(this.button14);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.button11);
+            this.panel1.Controls.Add(this.ipponR);
+            this.panel1.Controls.Add(this.wazariR);
+            this.panel1.Controls.Add(this.yukoR);
             this.panel1.Controls.Add(this.button12);
             this.panel1.Controls.Add(this.button13);
-            this.panel1.Controls.Add(this.button10);
-            this.panel1.Controls.Add(this.button9);
-            this.panel1.Controls.Add(this.button8);
+            this.panel1.Controls.Add(this.ipponB);
+            this.panel1.Controls.Add(this.wazariB);
+            this.panel1.Controls.Add(this.yukoB);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button1);
@@ -575,7 +610,7 @@
             // button14
             // 
             this.button14.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(102, 64);
+            this.button14.Location = new System.Drawing.Point(102, 65);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(84, 34);
             this.button14.TabIndex = 19;
@@ -603,38 +638,38 @@
             this.button2.Text = "10 sec";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // ipponR
             // 
-            this.button6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Red;
-            this.button6.Location = new System.Drawing.Point(397, 239);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 34);
-            this.button6.TabIndex = 16;
-            this.button6.Text = "Ippon";
-            this.button6.UseVisualStyleBackColor = true;
+            this.ipponR.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ipponR.ForeColor = System.Drawing.Color.Red;
+            this.ipponR.Location = new System.Drawing.Point(397, 239);
+            this.ipponR.Name = "ipponR";
+            this.ipponR.Size = new System.Drawing.Size(75, 34);
+            this.ipponR.TabIndex = 16;
+            this.ipponR.Text = "Ippon";
+            this.ipponR.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // wazariR
             // 
-            this.button7.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.Red;
-            this.button7.Location = new System.Drawing.Point(320, 239);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 34);
-            this.button7.TabIndex = 15;
-            this.button7.Text = "Waza-ari";
-            this.button7.UseVisualStyleBackColor = true;
+            this.wazariR.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wazariR.ForeColor = System.Drawing.Color.Red;
+            this.wazariR.Location = new System.Drawing.Point(320, 239);
+            this.wazariR.Name = "wazariR";
+            this.wazariR.Size = new System.Drawing.Size(75, 34);
+            this.wazariR.TabIndex = 15;
+            this.wazariR.Text = "Waza-ari";
+            this.wazariR.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // yukoR
             // 
-            this.button11.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.Red;
-            this.button11.Location = new System.Drawing.Point(243, 239);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 34);
-            this.button11.TabIndex = 14;
-            this.button11.Text = "Yuko";
-            this.button11.UseVisualStyleBackColor = true;
+            this.yukoR.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yukoR.ForeColor = System.Drawing.Color.Red;
+            this.yukoR.Location = new System.Drawing.Point(243, 239);
+            this.yukoR.Name = "yukoR";
+            this.yukoR.Size = new System.Drawing.Size(75, 34);
+            this.yukoR.TabIndex = 14;
+            this.yukoR.Text = "Yuko";
+            this.yukoR.UseVisualStyleBackColor = true;
             // 
             // button12
             // 
@@ -657,38 +692,38 @@
             this.button13.Text = "+";
             this.button13.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // ipponB
             // 
-            this.button10.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.Blue;
-            this.button10.Location = new System.Drawing.Point(156, 239);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 34);
-            this.button10.TabIndex = 11;
-            this.button10.Text = "Ippon";
-            this.button10.UseVisualStyleBackColor = true;
+            this.ipponB.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ipponB.ForeColor = System.Drawing.Color.Blue;
+            this.ipponB.Location = new System.Drawing.Point(156, 239);
+            this.ipponB.Name = "ipponB";
+            this.ipponB.Size = new System.Drawing.Size(75, 34);
+            this.ipponB.TabIndex = 11;
+            this.ipponB.Text = "Ippon";
+            this.ipponB.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // wazariB
             // 
-            this.button9.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.Blue;
-            this.button9.Location = new System.Drawing.Point(79, 239);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 34);
-            this.button9.TabIndex = 10;
-            this.button9.Text = "Waza-ari";
-            this.button9.UseVisualStyleBackColor = true;
+            this.wazariB.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wazariB.ForeColor = System.Drawing.Color.Blue;
+            this.wazariB.Location = new System.Drawing.Point(79, 239);
+            this.wazariB.Name = "wazariB";
+            this.wazariB.Size = new System.Drawing.Size(75, 34);
+            this.wazariB.TabIndex = 10;
+            this.wazariB.Text = "Waza-ari";
+            this.wazariB.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // yukoB
             // 
-            this.button8.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.Blue;
-            this.button8.Location = new System.Drawing.Point(2, 239);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 34);
-            this.button8.TabIndex = 9;
-            this.button8.Text = "Yuko";
-            this.button8.UseVisualStyleBackColor = true;
+            this.yukoB.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yukoB.ForeColor = System.Drawing.Color.Blue;
+            this.yukoB.Location = new System.Drawing.Point(2, 239);
+            this.yukoB.Name = "yukoB";
+            this.yukoB.Size = new System.Drawing.Size(75, 34);
+            this.yukoB.TabIndex = 9;
+            this.yukoB.Text = "Yuko";
+            this.yukoB.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
@@ -846,9 +881,10 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.shapeContainer3);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.panel4);
+            this.panel2.Controls.Add(this.goldDot);
             this.panel2.Location = new System.Drawing.Point(480, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(504, 460);
@@ -861,17 +897,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(214, 99);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Gold;
-            this.label5.Location = new System.Drawing.Point(227, 135);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 58);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "0";
             // 
             // panel3
             // 
@@ -887,7 +912,6 @@
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label1);
-            this.panel3.Controls.Add(this.shapeContainer2);
             this.panel3.Location = new System.Drawing.Point(1, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(190, 362);
@@ -1206,21 +1230,364 @@
             // 
             // lefttop
             // 
-            this.lefttop.BorderColor = System.Drawing.Color.Blue;
+            this.lefttop.BorderColor = System.Drawing.Color.Gold;
             this.lefttop.BorderWidth = 2;
             this.lefttop.Name = "lefttop";
             this.lefttop.SelectionColor = System.Drawing.SystemColors.ControlDark;
-            this.lefttop.X1 = 59;
-            this.lefttop.X2 = 59;
-            this.lefttop.Y1 = 114;
-            this.lefttop.Y2 = 133;
+            this.lefttop.X1 = 217;
+            this.lefttop.X2 = 217;
+            this.lefttop.Y1 = 142;
+            this.lefttop.Y2 = 161;
             // 
-            // shapeContainer2
+            // leftbottom
             // 
-            this.shapeContainer2.Location = new System.Drawing.Point(0, 0);
-            this.shapeContainer2.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer2.Name = "shapeContainer2";
-            this.shapeContainer2.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.leftbottom.BorderColor = System.Drawing.Color.Gold;
+            this.leftbottom.BorderWidth = 2;
+            this.leftbottom.Name = "leftbottom";
+            this.leftbottom.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.leftbottom.X1 = 217;
+            this.leftbottom.X2 = 217;
+            this.leftbottom.Y1 = 167;
+            this.leftbottom.Y2 = 186;
+            // 
+            // rightbottom
+            // 
+            this.rightbottom.BorderColor = System.Drawing.Color.Gold;
+            this.rightbottom.BorderWidth = 2;
+            this.rightbottom.Name = "rightbottom";
+            this.rightbottom.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.rightbottom.X1 = 242;
+            this.rightbottom.X2 = 242;
+            this.rightbottom.Y1 = 167;
+            this.rightbottom.Y2 = 186;
+            // 
+            // righttop
+            // 
+            this.righttop.BorderColor = System.Drawing.Color.Gold;
+            this.righttop.BorderWidth = 2;
+            this.righttop.Name = "righttop";
+            this.righttop.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.righttop.X1 = 242;
+            this.righttop.X2 = 242;
+            this.righttop.Y1 = 142;
+            this.righttop.Y2 = 161;
+            // 
+            // mid
+            // 
+            this.mid.BorderColor = System.Drawing.Color.Gold;
+            this.mid.BorderWidth = 2;
+            this.mid.Name = "mid";
+            this.mid.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.mid.X1 = 238;
+            this.mid.X2 = 220;
+            this.mid.Y1 = 164;
+            this.mid.Y2 = 164;
+            // 
+            // bottom
+            // 
+            this.bottom.BorderColor = System.Drawing.Color.Gold;
+            this.bottom.BorderWidth = 2;
+            this.bottom.Name = "bottom";
+            this.bottom.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.bottom.X1 = 239;
+            this.bottom.X2 = 221;
+            this.bottom.Y1 = 189;
+            this.bottom.Y2 = 189;
+            // 
+            // top
+            // 
+            this.top.BorderColor = System.Drawing.Color.Gold;
+            this.top.BorderWidth = 2;
+            this.top.Name = "top";
+            this.top.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.top.X1 = 238;
+            this.top.X2 = 220;
+            this.top.Y1 = 139;
+            this.top.Y2 = 139;
+            // 
+            // lineShape6
+            // 
+            this.lineShape6.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape6.BorderWidth = 2;
+            this.lineShape6.Name = "lineShape6";
+            this.lineShape6.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape6.X1 = 284;
+            this.lineShape6.X2 = 266;
+            this.lineShape6.Y1 = 164;
+            this.lineShape6.Y2 = 164;
+            // 
+            // lineShape7
+            // 
+            this.lineShape7.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape7.BorderWidth = 2;
+            this.lineShape7.Name = "lineShape7";
+            this.lineShape7.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape7.X1 = 263;
+            this.lineShape7.X2 = 263;
+            this.lineShape7.Y1 = 142;
+            this.lineShape7.Y2 = 161;
+            // 
+            // lineShape8
+            // 
+            this.lineShape8.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape8.BorderWidth = 2;
+            this.lineShape8.Name = "lineShape8";
+            this.lineShape8.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape8.X1 = 284;
+            this.lineShape8.X2 = 266;
+            this.lineShape8.Y1 = 139;
+            this.lineShape8.Y2 = 139;
+            // 
+            // lineShape9
+            // 
+            this.lineShape9.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape9.BorderWidth = 2;
+            this.lineShape9.Name = "lineShape9";
+            this.lineShape9.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape9.X1 = 263;
+            this.lineShape9.X2 = 263;
+            this.lineShape9.Y1 = 167;
+            this.lineShape9.Y2 = 186;
+            // 
+            // lineShape10
+            // 
+            this.lineShape10.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape10.BorderWidth = 2;
+            this.lineShape10.Name = "lineShape10";
+            this.lineShape10.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape10.X1 = 285;
+            this.lineShape10.X2 = 267;
+            this.lineShape10.Y1 = 189;
+            this.lineShape10.Y2 = 189;
+            // 
+            // lineShape11
+            // 
+            this.lineShape11.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape11.BorderWidth = 2;
+            this.lineShape11.Name = "lineShape11";
+            this.lineShape11.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape11.X1 = 288;
+            this.lineShape11.X2 = 288;
+            this.lineShape11.Y1 = 167;
+            this.lineShape11.Y2 = 186;
+            // 
+            // lineShape12
+            // 
+            this.lineShape12.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape12.BorderWidth = 2;
+            this.lineShape12.Name = "lineShape12";
+            this.lineShape12.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape12.X1 = 288;
+            this.lineShape12.X2 = 288;
+            this.lineShape12.Y1 = 142;
+            this.lineShape12.Y2 = 161;
+            // 
+            // goldDot
+            // 
+            this.goldDot.AutoSize = true;
+            this.goldDot.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goldDot.ForeColor = System.Drawing.Color.Gold;
+            this.goldDot.Location = new System.Drawing.Point(242, 146);
+            this.goldDot.Name = "goldDot";
+            this.goldDot.Size = new System.Drawing.Size(25, 33);
+            this.goldDot.TabIndex = 15;
+            this.goldDot.Text = ":";
+            // 
+            // lineShape13
+            // 
+            this.lineShape13.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape13.BorderWidth = 2;
+            this.lineShape13.Name = "lineShape13";
+            this.lineShape13.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape13.X1 = 317;
+            this.lineShape13.X2 = 299;
+            this.lineShape13.Y1 = 164;
+            this.lineShape13.Y2 = 164;
+            // 
+            // lineShape14
+            // 
+            this.lineShape14.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape14.BorderWidth = 2;
+            this.lineShape14.Name = "lineShape14";
+            this.lineShape14.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape14.X1 = 296;
+            this.lineShape14.X2 = 296;
+            this.lineShape14.Y1 = 142;
+            this.lineShape14.Y2 = 161;
+            // 
+            // lineShape15
+            // 
+            this.lineShape15.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape15.BorderWidth = 2;
+            this.lineShape15.Name = "lineShape15";
+            this.lineShape15.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape15.X1 = 317;
+            this.lineShape15.X2 = 299;
+            this.lineShape15.Y1 = 139;
+            this.lineShape15.Y2 = 139;
+            // 
+            // lineShape16
+            // 
+            this.lineShape16.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape16.BorderWidth = 2;
+            this.lineShape16.Name = "lineShape16";
+            this.lineShape16.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape16.X1 = 296;
+            this.lineShape16.X2 = 296;
+            this.lineShape16.Y1 = 167;
+            this.lineShape16.Y2 = 186;
+            // 
+            // lineShape17
+            // 
+            this.lineShape17.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape17.BorderWidth = 2;
+            this.lineShape17.Name = "lineShape17";
+            this.lineShape17.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape17.X1 = 318;
+            this.lineShape17.X2 = 300;
+            this.lineShape17.Y1 = 189;
+            this.lineShape17.Y2 = 189;
+            // 
+            // lineShape18
+            // 
+            this.lineShape18.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape18.BorderWidth = 2;
+            this.lineShape18.Name = "lineShape18";
+            this.lineShape18.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape18.X1 = 321;
+            this.lineShape18.X2 = 321;
+            this.lineShape18.Y1 = 167;
+            this.lineShape18.Y2 = 186;
+            // 
+            // lineShape19
+            // 
+            this.lineShape19.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape19.BorderWidth = 2;
+            this.lineShape19.Name = "lineShape19";
+            this.lineShape19.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape19.X1 = 321;
+            this.lineShape19.X2 = 321;
+            this.lineShape19.Y1 = 142;
+            this.lineShape19.Y2 = 161;
+            // 
+            // lineShape20
+            // 
+            this.lineShape20.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape20.BorderWidth = 2;
+            this.lineShape20.Name = "lineShape20";
+            this.lineShape20.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape20.X1 = 205;
+            this.lineShape20.X2 = 187;
+            this.lineShape20.Y1 = 164;
+            this.lineShape20.Y2 = 164;
+            // 
+            // lineShape21
+            // 
+            this.lineShape21.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape21.BorderWidth = 2;
+            this.lineShape21.Name = "lineShape21";
+            this.lineShape21.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape21.X1 = 184;
+            this.lineShape21.X2 = 184;
+            this.lineShape21.Y1 = 142;
+            this.lineShape21.Y2 = 161;
+            // 
+            // lineShape22
+            // 
+            this.lineShape22.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape22.BorderWidth = 2;
+            this.lineShape22.Name = "lineShape22";
+            this.lineShape22.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape22.X1 = 205;
+            this.lineShape22.X2 = 187;
+            this.lineShape22.Y1 = 139;
+            this.lineShape22.Y2 = 139;
+            // 
+            // lineShape23
+            // 
+            this.lineShape23.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape23.BorderWidth = 2;
+            this.lineShape23.Name = "lineShape23";
+            this.lineShape23.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape23.X1 = 184;
+            this.lineShape23.X2 = 184;
+            this.lineShape23.Y1 = 167;
+            this.lineShape23.Y2 = 186;
+            // 
+            // lineShape24
+            // 
+            this.lineShape24.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape24.BorderWidth = 2;
+            this.lineShape24.Name = "lineShape24";
+            this.lineShape24.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape24.X1 = 206;
+            this.lineShape24.X2 = 188;
+            this.lineShape24.Y1 = 189;
+            this.lineShape24.Y2 = 189;
+            // 
+            // lineShape25
+            // 
+            this.lineShape25.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape25.BorderWidth = 2;
+            this.lineShape25.Name = "lineShape25";
+            this.lineShape25.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape25.X1 = 209;
+            this.lineShape25.X2 = 209;
+            this.lineShape25.Y1 = 167;
+            this.lineShape25.Y2 = 186;
+            // 
+            // lineShape26
+            // 
+            this.lineShape26.BorderColor = System.Drawing.Color.Gold;
+            this.lineShape26.BorderWidth = 2;
+            this.lineShape26.Name = "lineShape26";
+            this.lineShape26.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape26.X1 = 209;
+            this.lineShape26.X2 = 209;
+            this.lineShape26.Y1 = 142;
+            this.lineShape26.Y2 = 161;
+            // 
+            // shapeContainer3
+            // 
+            this.shapeContainer3.Location = new System.Drawing.Point(0, 0);
+            this.shapeContainer3.Margin = new System.Windows.Forms.Padding(0);
+            this.shapeContainer3.Name = "shapeContainer3";
+            this.shapeContainer3.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.lineShape40,
+            this.lineShape39,
+            this.lineShape38,
+            this.lineShape37,
+            this.lineShape36,
+            this.lineShape35,
+            this.lineShape34,
+            this.lineShape33,
+            this.lineShape32,
+            this.lineShape31,
+            this.lineShape30,
+            this.lineShape29,
+            this.lineShape28,
+            this.lineShape27,
+            this.lineShape26,
+            this.lineShape25,
+            this.lineShape24,
+            this.lineShape23,
+            this.lineShape22,
+            this.lineShape21,
+            this.lineShape20,
+            this.lineShape19,
+            this.lineShape18,
+            this.lineShape17,
+            this.lineShape16,
+            this.lineShape15,
+            this.lineShape14,
+            this.lineShape13,
+            this.lineShape12,
+            this.lineShape11,
+            this.lineShape10,
+            this.lineShape9,
+            this.lineShape8,
+            this.lineShape7,
+            this.lineShape6,
             this.top,
             this.bottom,
             this.mid,
@@ -1228,75 +1595,163 @@
             this.rightbottom,
             this.leftbottom,
             this.lefttop});
-            this.shapeContainer2.Size = new System.Drawing.Size(190, 362);
-            this.shapeContainer2.TabIndex = 14;
-            this.shapeContainer2.TabStop = false;
+            this.shapeContainer3.Size = new System.Drawing.Size(504, 460);
+            this.shapeContainer3.TabIndex = 9;
+            this.shapeContainer3.TabStop = false;
             // 
-            // leftbottom
+            // lineShape27
             // 
-            this.leftbottom.BorderColor = System.Drawing.Color.Blue;
-            this.leftbottom.BorderWidth = 2;
-            this.leftbottom.Name = "leftbottom";
-            this.leftbottom.SelectionColor = System.Drawing.SystemColors.ControlDark;
-            this.leftbottom.X1 = 59;
-            this.leftbottom.X2 = 59;
-            this.leftbottom.Y1 = 139;
-            this.leftbottom.Y2 = 158;
+            this.lineShape27.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape27.BorderWidth = 2;
+            this.lineShape27.Name = "lineShape27";
+            this.lineShape27.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape27.X1 = 71;
+            this.lineShape27.X2 = 53;
+            this.lineShape27.Y1 = 163;
+            this.lineShape27.Y2 = 163;
             // 
-            // rightbottom
+            // lineShape28
             // 
-            this.rightbottom.BorderColor = System.Drawing.Color.Blue;
-            this.rightbottom.BorderWidth = 2;
-            this.rightbottom.Name = "rightbottom";
-            this.rightbottom.SelectionColor = System.Drawing.SystemColors.ControlDark;
-            this.rightbottom.X1 = 84;
-            this.rightbottom.X2 = 84;
-            this.rightbottom.Y1 = 139;
-            this.rightbottom.Y2 = 158;
+            this.lineShape28.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape28.BorderWidth = 2;
+            this.lineShape28.Name = "lineShape28";
+            this.lineShape28.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape28.X1 = 75;
+            this.lineShape28.X2 = 75;
+            this.lineShape28.Y1 = 166;
+            this.lineShape28.Y2 = 185;
             // 
-            // righttop
+            // lineShape29
             // 
-            this.righttop.BorderColor = System.Drawing.Color.Blue;
-            this.righttop.BorderWidth = 2;
-            this.righttop.Name = "righttop";
-            this.righttop.SelectionColor = System.Drawing.SystemColors.ControlDark;
-            this.righttop.X1 = 84;
-            this.righttop.X2 = 84;
-            this.righttop.Y1 = 114;
-            this.righttop.Y2 = 133;
+            this.lineShape29.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape29.BorderWidth = 2;
+            this.lineShape29.Name = "lineShape29";
+            this.lineShape29.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape29.X1 = 72;
+            this.lineShape29.X2 = 54;
+            this.lineShape29.Y1 = 188;
+            this.lineShape29.Y2 = 188;
             // 
-            // mid
+            // lineShape30
             // 
-            this.mid.BorderColor = System.Drawing.Color.Blue;
-            this.mid.BorderWidth = 2;
-            this.mid.Name = "mid";
-            this.mid.SelectionColor = System.Drawing.SystemColors.ControlDark;
-            this.mid.X1 = 80;
-            this.mid.X2 = 62;
-            this.mid.Y1 = 136;
-            this.mid.Y2 = 136;
+            this.lineShape30.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape30.BorderWidth = 2;
+            this.lineShape30.Name = "lineShape30";
+            this.lineShape30.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape30.X1 = 50;
+            this.lineShape30.X2 = 50;
+            this.lineShape30.Y1 = 166;
+            this.lineShape30.Y2 = 185;
             // 
-            // bottom
+            // lineShape31
             // 
-            this.bottom.BorderColor = System.Drawing.Color.Blue;
-            this.bottom.BorderWidth = 2;
-            this.bottom.Name = "bottom";
-            this.bottom.SelectionColor = System.Drawing.SystemColors.ControlDark;
-            this.bottom.X1 = 81;
-            this.bottom.X2 = 63;
-            this.bottom.Y1 = 161;
-            this.bottom.Y2 = 161;
+            this.lineShape31.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape31.BorderWidth = 2;
+            this.lineShape31.Name = "lineShape31";
+            this.lineShape31.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape31.X1 = 71;
+            this.lineShape31.X2 = 53;
+            this.lineShape31.Y1 = 138;
+            this.lineShape31.Y2 = 138;
             // 
-            // top
+            // lineShape32
             // 
-            this.top.BorderColor = System.Drawing.Color.Blue;
-            this.top.BorderWidth = 2;
-            this.top.Name = "top";
-            this.top.SelectionColor = System.Drawing.SystemColors.ControlDark;
-            this.top.X1 = 80;
-            this.top.X2 = 62;
-            this.top.Y1 = 111;
-            this.top.Y2 = 111;
+            this.lineShape32.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape32.BorderWidth = 2;
+            this.lineShape32.Name = "lineShape32";
+            this.lineShape32.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape32.X1 = 50;
+            this.lineShape32.X2 = 50;
+            this.lineShape32.Y1 = 141;
+            this.lineShape32.Y2 = 160;
+            // 
+            // lineShape33
+            // 
+            this.lineShape33.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape33.BorderWidth = 2;
+            this.lineShape33.Name = "lineShape33";
+            this.lineShape33.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape33.X1 = 75;
+            this.lineShape33.X2 = 75;
+            this.lineShape33.Y1 = 141;
+            this.lineShape33.Y2 = 160;
+            // 
+            // lineShape34
+            // 
+            this.lineShape34.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape34.BorderWidth = 2;
+            this.lineShape34.Name = "lineShape34";
+            this.lineShape34.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape34.X1 = 104;
+            this.lineShape34.X2 = 86;
+            this.lineShape34.Y1 = 138;
+            this.lineShape34.Y2 = 138;
+            // 
+            // lineShape35
+            // 
+            this.lineShape35.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape35.BorderWidth = 2;
+            this.lineShape35.Name = "lineShape35";
+            this.lineShape35.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape35.X1 = 105;
+            this.lineShape35.X2 = 87;
+            this.lineShape35.Y1 = 188;
+            this.lineShape35.Y2 = 188;
+            // 
+            // lineShape36
+            // 
+            this.lineShape36.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape36.BorderWidth = 2;
+            this.lineShape36.Name = "lineShape36";
+            this.lineShape36.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape36.X1 = 104;
+            this.lineShape36.X2 = 86;
+            this.lineShape36.Y1 = 163;
+            this.lineShape36.Y2 = 163;
+            // 
+            // lineShape37
+            // 
+            this.lineShape37.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape37.BorderWidth = 2;
+            this.lineShape37.Name = "lineShape37";
+            this.lineShape37.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape37.X1 = 108;
+            this.lineShape37.X2 = 108;
+            this.lineShape37.Y1 = 141;
+            this.lineShape37.Y2 = 160;
+            // 
+            // lineShape38
+            // 
+            this.lineShape38.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape38.BorderWidth = 2;
+            this.lineShape38.Name = "lineShape38";
+            this.lineShape38.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape38.X1 = 108;
+            this.lineShape38.X2 = 108;
+            this.lineShape38.Y1 = 166;
+            this.lineShape38.Y2 = 185;
+            // 
+            // lineShape39
+            // 
+            this.lineShape39.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape39.BorderWidth = 2;
+            this.lineShape39.Name = "lineShape39";
+            this.lineShape39.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape39.X1 = 83;
+            this.lineShape39.X2 = 83;
+            this.lineShape39.Y1 = 166;
+            this.lineShape39.Y2 = 185;
+            // 
+            // lineShape40
+            // 
+            this.lineShape40.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape40.BorderWidth = 2;
+            this.lineShape40.Name = "lineShape40";
+            this.lineShape40.SelectionColor = System.Drawing.SystemColors.ControlDark;
+            this.lineShape40.X1 = 83;
+            this.lineShape40.X2 = 83;
+            this.lineShape40.Y1 = 141;
+            this.lineShape40.Y2 = 160;
             // 
             // Form1
             // 
@@ -1336,7 +1791,6 @@
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label17;
@@ -1365,14 +1819,14 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolStripMenuItem swapPlayersToolStripMenuItem;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button ipponR;
+        private System.Windows.Forms.Button wazariR;
+        private System.Windows.Forms.Button yukoR;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button ipponB;
+        private System.Windows.Forms.Button wazariB;
+        private System.Windows.Forms.Button yukoB;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button1;
@@ -1423,7 +1877,6 @@
         private System.Windows.Forms.Label AKAname;
         private System.Windows.Forms.Label AOname;
         private System.Windows.Forms.ToolTip toolTip1;
-        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer2;
         private Microsoft.VisualBasic.PowerPacks.LineShape top;
         private Microsoft.VisualBasic.PowerPacks.LineShape bottom;
         private Microsoft.VisualBasic.PowerPacks.LineShape mid;
@@ -1431,6 +1884,43 @@
         private Microsoft.VisualBasic.PowerPacks.LineShape rightbottom;
         private Microsoft.VisualBasic.PowerPacks.LineShape leftbottom;
         private Microsoft.VisualBasic.PowerPacks.LineShape lefttop;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape26;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape25;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape24;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape23;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape22;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape21;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape20;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape19;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape18;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape17;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape16;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape15;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape14;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape13;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape12;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape11;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape10;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape9;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape8;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape7;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape6;
+        private System.Windows.Forms.Label goldDot;
+        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer3;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape40;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape39;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape38;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape37;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape36;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape35;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape34;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape33;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape32;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape31;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape30;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape29;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape28;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape27;
 
 
 
