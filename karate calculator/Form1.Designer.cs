@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.blueScore = new System.Windows.Forms.Label();
             this.checkBox9 = new System.Windows.Forms.CheckBox();
             this.label35 = new System.Windows.Forms.Label();
             this.checkBox10 = new System.Windows.Forms.CheckBox();
@@ -120,12 +119,12 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.redScore = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.AOname = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.label5 = new System.Windows.Forms.Label();
+            this.blueScore = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -137,7 +136,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.blueScore);
             this.panel1.Controls.Add(this.checkBox9);
             this.panel1.Controls.Add(this.label35);
             this.panel1.Controls.Add(this.checkBox10);
@@ -192,15 +190,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(479, 460);
             this.panel1.TabIndex = 0;
-            // 
-            // blueScore
-            // 
-            this.blueScore.AutoSize = true;
-            this.blueScore.Location = new System.Drawing.Point(181, 37);
-            this.blueScore.Name = "blueScore";
-            this.blueScore.Size = new System.Drawing.Size(13, 13);
-            this.blueScore.TabIndex = 55;
-            this.blueScore.Text = "0";
             // 
             // checkBox9
             // 
@@ -649,6 +638,7 @@
             this.button12.TabIndex = 13;
             this.button12.Text = "-";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
@@ -659,6 +649,7 @@
             this.button13.TabIndex = 12;
             this.button13.Text = "+";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // ipponB
             // 
@@ -703,6 +694,7 @@
             this.button5.TabIndex = 6;
             this.button5.Text = "-";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -883,7 +875,7 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.blueScore);
             this.panel3.Controls.Add(this.AKAname);
             this.panel3.Controls.Add(this.label17);
             this.panel3.Controls.Add(this.label18);
@@ -1037,7 +1029,7 @@
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label7);
-            this.panel4.Controls.Add(this.label3);
+            this.panel4.Controls.Add(this.redScore);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.AOname);
@@ -1148,16 +1140,16 @@
             this.label7.TabIndex = 3;
             this.label7.Text = "C1 :";
             // 
-            // label3
+            // redScore
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("MS Outlook", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(66, 126);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 66);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "00";
+            this.redScore.AutoSize = true;
+            this.redScore.Font = new System.Drawing.Font("MS Outlook", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.redScore.ForeColor = System.Drawing.Color.Red;
+            this.redScore.Location = new System.Drawing.Point(66, 126);
+            this.redScore.Name = "redScore";
+            this.redScore.Size = new System.Drawing.Size(94, 66);
+            this.redScore.TabIndex = 2;
+            this.redScore.Text = "00";
             // 
             // label4
             // 
@@ -1195,16 +1187,16 @@
             // 
             this.toolTip1.ToolTipTitle = "(p)";
             // 
-            // label5
+            // blueScore
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("MS Outlook", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(38, 126);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 66);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "00";
+            this.blueScore.AutoSize = true;
+            this.blueScore.Font = new System.Drawing.Font("MS Outlook", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.blueScore.ForeColor = System.Drawing.Color.Blue;
+            this.blueScore.Location = new System.Drawing.Point(38, 126);
+            this.blueScore.Name = "blueScore";
+            this.blueScore.Size = new System.Drawing.Size(94, 66);
+            this.blueScore.TabIndex = 17;
+            this.blueScore.Text = "00";
             // 
             // Form1
             // 
@@ -1267,7 +1259,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label redScore;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolStripMenuItem swapPlayersToolStripMenuItem;
@@ -1330,7 +1322,6 @@
         private System.Windows.Forms.Label AOname;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label blueScore;
-        private System.Windows.Forms.Label label5;
 
 
 

@@ -122,8 +122,8 @@ namespace karate_calculator
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label3.Font =myFont;
-            label5.Font = myFont;
+            redScore.Font =myFont;
+            blueScore.Font = myFont;
             ToolTip toolTip1 = new ToolTip();
 
             // Set up the delays for the ToolTip.
@@ -157,15 +157,58 @@ namespace karate_calculator
                 button4_Click(button4, e);
                 return true; // handled
             }
+            else if (e.Shift )
+            {
+                button13_Click(button4, e);
+                return true; // handled
+            }
             return base.ProcessCmdKey(ref msg, keyData);
         }
 
         private void button4_Click(object sender, EventArgs e) /// + blue button
         {
+            
             int temp;
             temp = Int32.Parse(blueScore.Text);
+            
+                temp++;
+                blueScore.Text = temp.ToString();
+            
+        }
+
+        private void button5_Click(object sender, EventArgs e) // - blue button
+        {
+            int temp;
+            temp = Int32.Parse(blueScore.Text);
+            if (temp <= 0) { }
+            else
+            {
+                temp--;
+                blueScore.Text = temp.ToString();
+            }
+        }
+
+        private void button13_Click(object sender, EventArgs e) // + red button
+        {
+            int temp;
+            temp = Int32.Parse(redScore.Text);
             temp++;
-            blueScore.Text = temp.ToString();
+            temp.ToString("D2");
+
+            redScore.Text = temp.ToString();
+        }
+
+        private void button12_Click(object sender, EventArgs e) // - red button
+        {
+            int temp;
+            temp = Int32.Parse(redScore.Text);
+            if (temp <= 0) { }
+            else
+            {
+                temp--;
+                temp.ToString("00");
+                redScore.Text = temp.ToString();
+            }
         }
         //private void sevenSegment(int n,int id) {
         //    if (id == 0)
