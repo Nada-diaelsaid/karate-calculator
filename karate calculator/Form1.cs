@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 using System.Drawing.Text;
 
 namespace karate_calculator
@@ -170,9 +169,11 @@ namespace karate_calculator
             
             int temp;
             temp = Int32.Parse(blueScore.Text);
-            
-                temp++;
-                blueScore.Text = temp.ToString();
+            temp++;
+            /////format string in 00 form
+            string s;
+            s = string.Format("{0:00}", temp);
+            blueScore.Text = s;
             
         }
 
@@ -180,11 +181,14 @@ namespace karate_calculator
         {
             int temp;
             temp = Int32.Parse(blueScore.Text);
-            if (temp <= 0) { }
+            if (temp <= 0) { }//make sure number doesnot get below zero
             else
             {
                 temp--;
-                blueScore.Text = temp.ToString();
+                /////format string in 00 form
+                string s;
+                s = string.Format("{0:00}", temp);
+                blueScore.Text = s;
             }
         }
 
@@ -193,257 +197,26 @@ namespace karate_calculator
             int temp;
             temp = Int32.Parse(redScore.Text);
             temp++;
-            temp.ToString("D2");
-
-            redScore.Text = temp.ToString();
+            /////format string in 00 form
+            string s;
+            s = string.Format("{0:00}", temp);
+            redScore.Text = s;
         }
 
         private void button12_Click(object sender, EventArgs e) // - red button
         {
             int temp;
             temp = Int32.Parse(redScore.Text);
-            if (temp <= 0) { }
+            if (temp <= 0) { } //make sure number doesnot get below zero
             else
             {
                 temp--;
-                temp.ToString("00");
-                redScore.Text = temp.ToString();
+                /////format string in 00 form
+                string s;
+                s = string.Format("{0:00}", temp);
+                redScore.Text = s;
             }
         }
-        //private void sevenSegment(int n,int id) {
-        //    if (id == 0)
-        //    {
-        //         if (n == 0)
-        //        {
-        //            top.Visible = true;
-        //            mid.Visible = false;
-        //            bottom.Visible = true;
-        //            lefttop.Visible = true;
-        //            leftbottom.Visible = true;
-        //            righttop.Visible = true;
-        //            rightbottom.Visible = true;
-        //        }
-        //        else if (n == 1)
-        //        {
-        //            top.Visible = false;
-        //            mid.Visible = false;
-        //            bottom.Visible = false;
-        //            righttop.Visible = true;
-        //            rightbottom.Visible = true;
-        //            lefttop.Visible = false;
-        //            leftbottom.Visible = false;
-        //        }
-        //        else if (n == 2)
-        //        {
-        //            top.Visible = true;
-        //            mid.Visible = true;
-        //            bottom.Visible = true;
-        //            righttop.Visible = true;
-        //            rightbottom.Visible = false;
-        //            lefttop.Visible = false;
-        //            leftbottom.Visible = true;
-        //        }
-        //        else if (n == 3)
-        //        {
-        //            top.Visible = true;
-        //            mid.Visible = true;
-        //            bottom.Visible = true;
-        //            righttop.Visible = true;
-        //            rightbottom.Visible = true;
-        //            lefttop.Visible = false;
-        //            leftbottom.Visible = false;
-        //        }
-        //        else if (n == 4)
-        //        {
-        //            top.Visible = false;
-        //            mid.Visible = true;
-        //            bottom.Visible = false;
-        //            righttop.Visible = true;
-        //            rightbottom.Visible = true;
-        //            lefttop.Visible = true;
-        //            leftbottom.Visible = false;
-        //        }
-        //        else if (n == 5)
-        //        {
-        //            top.Visible = true;
-        //            mid.Visible = true;
-        //            bottom.Visible = true;
-        //            righttop.Visible = false;
-        //            rightbottom.Visible = true;
-        //            lefttop.Visible = true;
-        //            leftbottom.Visible = false;
-        //        }
-        //        else if (n == 6)
-        //        {
-        //            top.Visible = true;
-        //            mid.Visible = true;
-        //            bottom.Visible = true;
-        //            righttop.Visible = false;
-        //            rightbottom.Visible = true;
-        //            lefttop.Visible = true;
-        //            leftbottom.Visible = true;
-        //        }
-        //        else if (n == 7)
-        //        {
-        //            top.Visible = true;
-        //            mid.Visible = false;
-        //            bottom.Visible = false;
-        //            righttop.Visible = true;
-        //            rightbottom.Visible = true;
-        //            lefttop.Visible = false;
-        //            leftbottom.Visible = false;
-        //        }
-        //        else if (n == 8)
-        //        {
-        //            top.Visible = true;
-        //            mid.Visible = true;
-        //            bottom.Visible = true;
-        //            righttop.Visible = true;
-        //            rightbottom.Visible = true;
-        //            lefttop.Visible = true;
-        //            leftbottom.Visible = true;
-        //        }
-        //        else if (n == 9)
-        //        {
-        //            top.Visible = true;
-        //            mid.Visible = true;
-        //            bottom.Visible = true;
-        //            righttop.Visible = true;
-        //            rightbottom.Visible = true;
-        //            lefttop.Visible = true;
-        //            leftbottom.Visible = false;
-        //        }
-        //    }
-            
-        //    else if (id == 1) {
-        //        if (n == 0)
-        //        {
-        //            top1.Visible = true;
-        //            mid1.Visible = false;
-        //            bottom1.Visible = true;
-        //            lefttop1.Visible = true;
-        //            leftbottom1.Visible = true;
-        //            righttop1.Visible = true;
-        //            rightbottom1.Visible = true;
-        //        }
-        //        else if (n == 1)
-        //        {
-        //            top1.Visible = false;
-        //            mid1.Visible = false;
-        //            bottom1.Visible = false;
-        //            righttop1.Visible = true;
-        //            rightbottom1.Visible = true;
-        //            lefttop1.Visible = false;
-        //            leftbottom1.Visible = false;
-        //        }
-        //        else if (n == 2)
-        //        {
-        //            top1.Visible = true;
-        //            mid1.Visible = true;
-        //            bottom1.Visible = true;
-        //            righttop1.Visible = true;
-        //            rightbottom1.Visible = false;
-        //            lefttop1.Visible = false;
-        //            leftbottom1.Visible = true;
-        //        }
-        //        else if (n == 3)
-        //        {
-        //            top1.Visible = true;
-        //            mid1.Visible = true;
-        //            bottom1.Visible = true;
-        //            righttop1.Visible = true;
-        //            rightbottom1.Visible = true;
-        //            lefttop1.Visible = false;
-        //            leftbottom1.Visible = false;
-        //        }
-        //        else if (n == 4)
-        //        {
-        //            top1.Visible = false;
-        //            mid1.Visible = true;
-        //            bottom1.Visible = false;
-        //            righttop1.Visible = true;
-        //            rightbottom1.Visible = true;
-        //            lefttop1.Visible = true;
-        //            leftbottom1.Visible = false;
-        //        }
-        //        else if (n == 5)
-        //        {
-        //            top1.Visible = true;
-        //            mid1.Visible = true;
-        //            bottom1.Visible = true;
-        //            righttop1.Visible = false;
-        //            rightbottom1.Visible = true;
-        //            lefttop1.Visible = true;
-        //            leftbottom1.Visible = false;
-        //        }
-        //        else if (n == 6)
-        //        {
-        //            top1.Visible = true;
-        //            mid1.Visible = true;
-        //            bottom1.Visible = true;
-        //            righttop1.Visible = false;
-        //            rightbottom1.Visible = true;
-        //            lefttop1.Visible = true;
-        //            leftbottom1.Visible = true;
-        //        }
-        //        else if (n == 7)
-        //        {
-        //            top1.Visible = true;
-        //            mid1.Visible = false;
-        //            bottom1.Visible = false;
-        //            righttop1.Visible = true;
-        //            rightbottom1.Visible = true;
-        //            lefttop1.Visible = false;
-        //            leftbottom1.Visible = false;
-        //        }
-        //        else if (n == 8)
-        //        {
-        //            top1.Visible = true;
-        //            mid1.Visible = true;
-        //            bottom1.Visible = true;
-        //            righttop1.Visible = true;
-        //            rightbottom1.Visible = true;
-        //            lefttop1.Visible = true;
-        //            leftbottom1.Visible = true;
-        //        }
-        //        else if (n == 9)
-        //        {
-        //            top1.Visible = true;
-        //            mid1.Visible = true;
-        //            bottom1.Visible = true;
-        //            righttop1.Visible = true;
-        //            rightbottom1.Visible = true;
-        //            lefttop1.Visible = true;
-        //            leftbottom1.Visible = false;
-        //        }
-        //    }
-        //}
-
-        //private void calculateScore(string color) {
-        //  if (color == "blue"){
-        //        int score = Int32.Parse(blueScore.Text);
-        //        if (score <= 9)
-        //        {
-        //            sevenSegment(score, 0);
-        //        }
-        //        else
-        //        {
-        //            int[] d = getDigits(score);
-        //            sevenSegment(d[0], 0);
-        //            sevenSegment(d[1], 1);
-        //        }
-        //    }
-        //}
-        //private int[] getDigits(int num)
-        //{
-        //    List<int> listOfInts = new List<int>();
-        //    while (num > 0)
-        //    {
-        //        listOfInts.Add(num % 10);
-        //        num = num / 10;
-        //    }
-        //    listOfInts.Reverse();
-        //    return listOfInts.ToArray();
-        //}
+       
     }
 }
