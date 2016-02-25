@@ -128,7 +128,7 @@ namespace karate_calculator
             blueScore.Font = myFont;
             minLabel.Font = myFont;
             secLabel.Font = myFont;
-            dot.Font = myFont;
+            
             ToolTip toolTip1 = new ToolTip();
 
             // Set up the delays for the ToolTip.
@@ -526,14 +526,7 @@ namespace karate_calculator
 
         private void CBH2R_CheckedChanged(object sender, EventArgs e)
         {
-            if (CBH2R.Checked == true)
-            {
-                LH2R.BackColor = Color.Gray;
-            }
-            else if (CBH2R.Checked == false)
-            {
-                LH2R.BackColor = Color.Transparent;
-            }
+
         }
 
         
