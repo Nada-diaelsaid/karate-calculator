@@ -96,7 +96,6 @@
             this.lineShape4 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape3 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.dot = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -151,6 +150,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.numericUpDown2);
+            this.panel1.Controls.Add(this.numericUpDown1);
             this.panel1.Controls.Add(this.CBK2R);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.CBH2R);
@@ -168,8 +169,6 @@
             this.panel1.Controls.Add(this.CBC1R);
             this.panel1.Controls.Add(this.label37);
             this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.numericUpDown2);
-            this.panel1.Controls.Add(this.numericUpDown1);
             this.panel1.Controls.Add(this.timeLabel);
             this.panel1.Controls.Add(this.CBK2B);
             this.panel1.Controls.Add(this.label39);
@@ -205,7 +204,6 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.menuStrip1);
             this.panel1.Controls.Add(this.shapeContainer1);
-            this.panel1.Controls.Add(this.dot);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -246,7 +244,6 @@
             this.CBH2R.Size = new System.Drawing.Size(15, 14);
             this.CBH2R.TabIndex = 73;
             this.CBH2R.UseVisualStyleBackColor = true;
-            this.CBH2R.CheckedChanged += new System.EventHandler(this.CBH2R_CheckedChanged);
             // 
             // label31
             // 
@@ -418,7 +415,7 @@
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(220, 135);
+            this.numericUpDown2.Location = new System.Drawing.Point(223, 136);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             59,
             0,
@@ -430,7 +427,7 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(184, 135);
+            this.numericUpDown1.Location = new System.Drawing.Point(184, 136);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             3,
             0,
@@ -445,11 +442,11 @@
             this.timeLabel.AutoSize = true;
             this.timeLabel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.timeLabel.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timeLabel.Location = new System.Drawing.Point(104, 132);
+            this.timeLabel.Location = new System.Drawing.Point(107, 132);
             this.timeLabel.Name = "timeLabel";
-            this.timeLabel.Size = new System.Drawing.Size(71, 25);
+            this.timeLabel.Size = new System.Drawing.Size(121, 25);
             this.timeLabel.TabIndex = 55;
-            this.timeLabel.Text = "Time:";
+            this.timeLabel.Text = "Time:       :";
             this.timeLabel.Click += new System.EventHandler(this.timeLabel_Click);
             // 
             // CBK2B
@@ -947,17 +944,6 @@
             this.lineShape2.X2 = 237;
             this.lineShape2.Y1 = 177;
             this.lineShape2.Y2 = 278;
-            // 
-            // dot
-            // 
-            this.dot.AutoSize = true;
-            this.dot.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.dot.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dot.Location = new System.Drawing.Point(209, 134);
-            this.dot.Name = "dot";
-            this.dot.Size = new System.Drawing.Size(15, 19);
-            this.dot.TabIndex = 57;
-            this.dot.Text = ":";
             // 
             // label5
             // 
@@ -1488,7 +1474,6 @@
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label timeLabel;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.Label dot;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label46;
